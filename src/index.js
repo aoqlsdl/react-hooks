@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TitleExample from './2.useEffect/Sec01';
+import ClickExample from './2.useEffect/Sec02';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<TitleExample />
+		<ClickExample />
 	</React.StrictMode>
 );
 
