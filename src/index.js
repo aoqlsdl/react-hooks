@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import TitleExample from './2.useEffect/Sec01';
-import ClickExample from './2.useEffect/Sec02';
+import TitleExample from './2.useEffect/2.1.useTitle/index';
+import ClickExample from './2.useEffect/2.2.useClick/index';
+import HoverExample from './2.useEffect/2.3.useHover';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<ClickExample />
+		<HoverExample />
 	</React.StrictMode>
 );
 
