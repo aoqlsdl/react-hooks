@@ -1,16 +1,11 @@
-import { useRef, useEffect } from 'react';
+import useClick from './useClick';
 
 const ClickExample = () => {
-	const potato = useRef(null);
-	// ref가 mount 되기 전에 실행되므로 potato.current에 optional chaining을 걸어주거나 useEffect를 사용한다.
-	useEffect(() => {
-		// == getElementById
-		setTimeout(() => potato.current.focus(), 5000);
-	});
+	const sayHello = () => console.log('say hello');
+	const title = useClick(sayHello);
 	return (
 		<>
-			<div>Hi</div>
-			<input ref={potato} placeholder="la" />
+			<h1 ref={title}>Hi</h1>
 		</>
 	);
 };
