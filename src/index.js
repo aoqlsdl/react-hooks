@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import InputExample from './1.useState';
+import TabExample from './1.useState/index-2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<InputExample />
+		<TabExample />
 	</React.StrictMode>
 );
 
