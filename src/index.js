@@ -7,11 +7,12 @@ import TitleExample from './2.useEffect/2.1.useTitle/index';
 import ClickExample from './2.useEffect/2.2.useClick/index';
 import HoverExample from './2.useEffect/2.3.useHover';
 import LeaveExample from './2.useEffect/2.4.useBeforeLeave';
+import FadeInExample from './2.useEffect/2.5.1.useFadeIn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<LeaveExample />
+		<FadeInExample />
 	</React.StrictMode>
 );
 
