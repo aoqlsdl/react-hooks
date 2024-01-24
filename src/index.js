@@ -12,11 +12,12 @@ import NetworkExample from './2.useEffect/2.5.2.useNetwork';
 import ScrollExample from './2.useEffect/2.6.1.useScroll';
 import FullScreenExample from './2.useEffect/2.6.2.useFullScreen';
 import NotificationExample from './2.useEffect/2.7.useNotification';
+import AxiosExample from './2.useEffect/2.8.useAxios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<NotificationExample />
+		<AxiosExample />
 	</React.StrictMode>
 );
 
