@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks",
+  "name": "@hvhooks/use-title",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,5 +35,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "실전형 리액트 hooks 강의",
+  "main": "React Hooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoqlsdl/react-hooks.git"
+  },
+  "keywords": [
+    "hooks"
+  ],
+  "author": "hyebin kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aoqlsdl/react-hooks/issues"
+  },
+  "homepage": "https://github.com/aoqlsdl/react-hooks#readme",
+  "devDependencies": {}
 }
