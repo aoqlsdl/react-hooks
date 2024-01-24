@@ -9,11 +9,12 @@ import HoverExample from './2.useEffect/2.3.useHover';
 import LeaveExample from './2.useEffect/2.4.useBeforeLeave';
 import FadeInExample from './2.useEffect/2.5.1.useFadeIn';
 import NetworkExample from './2.useEffect/2.5.2.useNetwork';
+import ScrollExample from './2.useEffect/2.6.1.useScroll';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<NetworkExample />
+		<ScrollExample />
 	</React.StrictMode>
 );
 
