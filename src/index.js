@@ -8,11 +8,12 @@ import ClickExample from './2.useEffect/2.2.useClick/index';
 import HoverExample from './2.useEffect/2.3.useHover';
 import LeaveExample from './2.useEffect/2.4.useBeforeLeave';
 import FadeInExample from './2.useEffect/2.5.1.useFadeIn';
+import NetworkExample from './2.useEffect/2.5.2.useNetwork';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<FadeInExample />
+		<NetworkExample />
 	</React.StrictMode>
 );
 
